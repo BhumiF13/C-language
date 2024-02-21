@@ -6,7 +6,7 @@ int main()
 	int i=0,c=0,l;
 	char s[20];
 	printf("Input string\n");
-    gets(s);
+	scanf("%[^\n]",s);
 	l=strlen(s);
 	while(i<=l)
 	{
